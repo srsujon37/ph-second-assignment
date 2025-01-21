@@ -103,10 +103,10 @@
     max-width: 1160px;
     margin: 0 auto;
   }
-  main{
+  /* main{
     max-width: 1160px;
     margin: 0 auto;
-  }
+  } */
 
   main> section{
     margin-top: 60px;
@@ -183,6 +183,7 @@
   /* standard section design */
   .curriculum{
     background-image: url(/assets/bg.png);
+    height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,6 +191,7 @@
     margin: 80px 0px;
   }
   .card{
+    justify-content: center;
     gap: 45px;
   }
   .card-items{
@@ -244,9 +246,24 @@
   }
  
   /* our stories design */
-  .our-stories{
+  .conainer-bg{
+
     background: url(/assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* max-width: 1160px; */   
     
+  }
+  .our-stories{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .our-title{
+    text-align: center;
   }
   .first-blog{
     width: 540.27px;
@@ -283,7 +300,7 @@
     line-height: 28.76px;
     letter-spacing: 0%;
     text-align: left;
-
+  }
 
 
 
