@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .raleway-font{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  /* shared style */
+
+  .display-flex{
+    display: flex;
+  }
+
+  .section-title{
+    font-size: 2.9rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+  }
+
+  .sub-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(32, 32, 32);
+
+  }
+  .card-text{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+
+  }
+
+  .btn-primary{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px;
+    font-family: Quicksand;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left; 
+
+  }
+
+  .nav-btn{
+    border: none;
+    border-radius: 12px;
+    /* Orange */
+    background: rgb(254, 163, 1);
+    padding: 10px 40px;
+    font-family: Quicksand;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%; 
+    text-align: left; 
+  }
+  .orange{
+    color: rgb(254, 163, 1);
+  }
+  .sky-blue{
+    color: rgb(1, 172, 253);
+  }
+  .Cyan{
+    color: #05D4DF;
+  }
+  .blue-violet{
+    color: rgb(93, 88, 239);
+  }
+
+  .navbar .hero{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  main{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+
+  main> section{
+    margin-top: 60px;
+  }
+
+  /* header-design */
+
+  .navbar{
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav> .logo h2{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .logo-img{
+    width: 62px;
+    height: 62px;
+  }
+  .logo{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-links{
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .list-items{
+    list-style: none;
+    margin-right: 32px;
+    /* text-decoration: none; */
+  }
