@@ -59,7 +59,9 @@
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left; 
-
+  }
+  .btn-primary:hover{
+    background-color: rgb(254, 163, 1);
   }
 
   .nav-btn{
@@ -75,6 +77,9 @@
     line-height: 30px;
     letter-spacing: 0%; 
     text-align: left; 
+  }
+  .nav-btn:hover{
+    background-color: black;
   }
   .orange{
     color: rgb(254, 163, 1);
@@ -220,6 +225,20 @@
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
   }
+  .btn{
+    background-color: rgb(254, 163, 1);
+    border: none;
+    border-radius: 30px;
+    padding: 16px 22px;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 80px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: black;
+  }
+
 
 
 
