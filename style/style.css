@@ -247,6 +247,8 @@
  
   /* our stories design */
   .container{
+    max-width: 1160px;
+    margin: 0 auto;
     align-items: center;  
     justify-content: center;
     gap: 20px;
@@ -270,11 +272,14 @@
   }
   .our-title{
     text-align: center;
+    padding-top: 100px;
   }
   .first-blog{
+    border-radius: 16px;
     width: 540.27px;
     height: 630.52px;
     background-color: white;
+
     }
     .blog-info{
       padding: 38px 25px;
@@ -292,6 +297,7 @@
       padding: 38px 29px;
     }
     .blog-item img{
+      width: 100%;
       border-radius: 16px 16px 0px 0px;
       margin-bottom: -75px;
     }
@@ -366,13 +372,87 @@
     flex-direction: row;
   }
   
+  .hide{
+    display: none;
+  }
+  .str-btn{
+    justify-content: center;
+    /* align-items: center; */
+    padding-bottom: 50px;
+  }
 
+
+  /*  footer style */
+  #wd{
+    max-width: 1160px;
+    margin: 0  auto;
+    padding-top: 123px;
+    padding-bottom: 123px;
+  }
+  footer{
+  background: rgb(1, 172, 253);
+  }
+  .container-footer{
+    justify-content: space-between;
+  }
+  .footer-item{
+    
+  }
+  .footer-logo{
+    width: 82.9px;
+    height: 81.65px;
+  }
+  .footer-it{
+    justify-content: start;
+    align-items: center;
+  }
+  .kids{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 42.14px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: left;
+    
+  }
+  .footer-discription{
+    width: 399px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
 
 
 
   @media screen and (max-width: 576px) {
-    .navbar{
+    .navbar, .container{
         flex-direction: column;
+    }
+    .our-title{
+      margin-top: 1000px;
+    }
+   .green-btn{
+    padding: 10px 30px;
+    font-size: 9.13px;
+    font-weight: 500;
+   }
+   #sky-btn{
+    padding: 10px 30px;
+    font-size: 9.13px;
+    font-weight: 500;
+   }
+    .blog-card{
+      padding-left: 5px;
+      padding-right: 5px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-title{
+      font-size: 0.8rem;
+      font-weight: 700;
     }
     .hero{
         flex-direction: column-reverse;    
@@ -386,6 +466,9 @@
     .hero-content{
         align-items: center;
         text-align: center;
+    }
+    .hero-content img{
+      width: 100%;
     }
     .hero-text{
         text-align: center;
@@ -405,12 +488,15 @@
     }
 
     .card-items{
-      display: block;  
-      /*   */
-      
-       
-          
+      display: block;
     }
+    .hide{
+      display: none;
+    }
+    .our-stories{
+      display: none;
+    }
+  
     
   }
 
