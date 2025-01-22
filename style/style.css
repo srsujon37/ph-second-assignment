@@ -246,11 +246,14 @@
   }
  
   /* our stories design */
-  .stori{
+  .container{
     align-items: center;  
-    justify-content: space-around;
-    padding-left: 140px;
-    padding-right: 140px;
+    justify-content: center;
+    gap: 20px;
+    /* padding-left: 140px;
+    padding-right: 140px; */
+    /* margin-bottom: 80px; */
+    padding-bottom: 80px;
 
   
   }
@@ -259,7 +262,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
     
   }
   .our-stories{
