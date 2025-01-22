@@ -113,6 +113,20 @@
   }
 
   /* header-design */
+  .checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+
+
+  }
 
   .navbar{
     justify-content: space-between;
@@ -452,8 +466,8 @@
   }
 
 
-
   @media screen and (max-width: 576px) {
+    
     .btn {
       display: none;
     }
@@ -534,6 +548,50 @@
   }
 
 
-  @media screen and (min-width: 576px) and (max-width: 992px){
+  @media screen and (min-width: 578px) and (max-width: 992px){
+    .nav-btn{
+      display: none;
+    }
+    .checkbtn{
+      display: block;
+
+    }
+    ul{
+      display: block;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(181, 216, 245);
+      top: 100px;
+      left: 0;
+      text-align: center;
+      transition: all .5s;
+
+    }
+    .list-items{
+      display: block;
+    }
+    /* nav ul li .nav-links{
+      display: block;
+      align-items: center;
+    } */
+    nav ul li {
+      text-align: left;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding-top: 25px;
+      padding-bottom: 20px;    
+    }
+    #aaa{
+      color: black;
+    }
+    #bbb{
+      display: block;
+      gap: 25px;
+    }
+
+    #check:checked ~ #bb{
+      left: 0;
+    }
     
   }
