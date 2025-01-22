@@ -440,6 +440,17 @@
     line-height: 25px;
   }
 
+  /* marquee design */
+  #marquee{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .15);
+    background-color: #ffffff;
+    padding: 10px;    
+    font-size: 2rem;
+    font-weight: 700;
+    color: skyblue;
+  }
+
 
 
   @media screen and (max-width: 576px) {
